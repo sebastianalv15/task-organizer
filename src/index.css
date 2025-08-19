@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-pink-50 via-blue-50 to-purple-50 text-gray-800 min-h-screen;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-300 rounded-full;
+}
